@@ -9,6 +9,7 @@ function App() {
       <Hidden/>
       <Alsobuy/>
       <Help/>
+      <div className="pt-16 pb-16"><Companies/></div>
       <Footer />
     </div>
   )
