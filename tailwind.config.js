@@ -7,6 +7,9 @@ export default {
       'footer-bg' : '#091a38',
       'white' : 'white',
       'footer-gray' :  '#b3bac5',
+      'help-head':'#253858',
+      'help-line':'#0065ff',
+      'help-box':'#5e6384',
     },
 
     extend: {
