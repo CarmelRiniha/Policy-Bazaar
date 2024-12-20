@@ -17,11 +17,11 @@ function Insurance() {
           <div className="mr-2">
             <FontAwesomeIcon
               icon={open === 1 ? faCircleMinus : faCirclePlus}
-              className="w-[15px] h-4 text-sm opacity-90"
+              className="w-[15px] h-4 text-sm opacity-90 cursor-pointer"
               style={{ color: "#b3bac5" }}
             />
           </div>
-          <p>General Insurance</p>
+          <p className="cursor-pointer">General Insurance</p>
         </li>
 
         {open === 1 && (
@@ -40,11 +40,11 @@ function Insurance() {
           <div className="mr-2">
             <FontAwesomeIcon
               icon={open === 2 ? faCircleMinus : faCirclePlus}
-              className="w-[15px] h-4 text-sm opacity-90"
+              className="w-[15px] h-4 text-sm opacity-90 cursor-pointer"
               style={{ color: "#b3bac5" }}
             />
           </div>
-          <p>Life Insurance</p>
+          <p className="cursor-pointer">Life Insurance</p>
         </li>
 
         {open === 2 && (
@@ -63,11 +63,11 @@ function Insurance() {
           <div className="mr-2">
             <FontAwesomeIcon
               icon={open === 3 ? faCircleMinus : faCirclePlus}
-              className="w-[15px] h-4 text-sm opacity-90"
+              className="w-[15px] h-4 text-sm opacity-90 cursor-pointer"
               style={{ color: "#b3bac5" }}
             />
           </div>
-          <p>Term Insurance</p>
+          <p className="cursor-pointer">Term Insurance</p>
         </li>
 
         {open === 3 && (
@@ -87,11 +87,11 @@ function Insurance() {
           <div className="mr-2">
             <FontAwesomeIcon
               icon={open === 4 ? faCircleMinus : faCirclePlus}
-              className="w-[15px] h-4 text-sm opacity-90"
+              className="w-[15px] h-4 text-sm opacity-90 cursor-pointer"
               style={{ color: "#b3bac5" }}
             />
           </div>
-          <p>Investment</p>
+          <p className="cursor-pointer">Investment</p>
         </li>
 
         {open === 4 && (
@@ -114,11 +114,11 @@ function Insurance() {
           <div className="mr-2">
             <FontAwesomeIcon
               icon={open === 5 ? faCircleMinus : faCirclePlus}
-              className="w-[15px] h-4 text-sm opacity-90"
+              className="w-[15px] h-4 text-sm opacity-90 cursor-pointer"
               style={{ color: "#b3bac5" }}
             />
           </div>
-          <p>Health Insurance</p>
+          <p className="cursor-pointer">Health Insurance</p>
         </li>
 
         {open === 5 && (
@@ -131,11 +131,11 @@ function Insurance() {
           <div className="mr-2">
             <FontAwesomeIcon
               icon={open === 6 ? faCircleMinus : faCirclePlus}
-              className="w-[15px] h-4 text-sm opacity-90"
+              className="w-[15px] h-4 text-sm opacity-90 cursor-pointer"
               style={{ color: "#b3bac5" }}
             />
           </div>
-          <p>Other Insurance</p>
+          <p className="cursor-pointer">Other Insurance</p>
         </li>
 
         {open === 6 && (
